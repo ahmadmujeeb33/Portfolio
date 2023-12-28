@@ -1,5 +1,5 @@
 
-.something{
+.navbar-items{
   display: flex;
   justify-content: flex-end;
   width: 95%;
@@ -15,4 +15,9 @@
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+.items{
+  text-decoration: none;
+  color: white;
 }

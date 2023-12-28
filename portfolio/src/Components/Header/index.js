@@ -1,15 +1,17 @@
 import './header.css';
+import { Link } from "react-router-dom"
+
 
 
 export const Header = () =>{
 
-    return (
-        <header className= "something">
-            <h5>About</h5>
-            <h5>Projects</h5>
-            <h5>Experiance</h5>
-        </header>
-    )
+  return (
+      <header className = 'navbar-items'>
+          <Link to ="/" className="items">About</Link>
+          <Link to ="/projects" className="items">Projects</Link>
+          <Link to ="/" className="items">Experiance</Link>
+      </header>
+  )
 
 
 

@@ -1,0 +1,45 @@
+
+h1 {
+  color: white;
+}
+
+.projects-container{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.oval {
+  width: 400px;
+  height: 330px;
+  border-radius: 10%;
+  background-color: #161a1d;
+}
+
+.oval-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1500px;
+  gap: 20px;
+}
+
+.oval-contents-grid {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.skills-container{
+  display: inline-block;
+}
+
+.skills-container span {
+  padding-right: 10px;
+  color: gold;
+}
+

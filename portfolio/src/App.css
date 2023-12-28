@@ -1,6 +1,6 @@
 body {
   background-color: black !important;
-  background-image: url(../Assets/Images/twinkling.png), url(../Assets/Images/stars.png) !important;
+  background-image: url(./Images/twinkling.png), url(./Images/stars.png) !important;
   background-repeat: repeat, repeat;
   background-position-x: center, center;
   background-position-y: top, top;

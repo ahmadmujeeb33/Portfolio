@@ -5,7 +5,7 @@ import './home.css';
 
 
 
-export default function Home() {
+export const Home = () => {
 
 
   const [text, speed] = useTypewriter({
