@@ -6,8 +6,6 @@ import './home.css';
 
 
 export const Home = () => {
-
-
   const [text, speed] = useTypewriter({
     words: [
       "Hi, I'm Ahmad",
@@ -26,4 +24,3 @@ export const Home = () => {
   )
 
 }
-

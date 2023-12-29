@@ -1,0 +1,36 @@
+.timeline {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  
+  .timeline-item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-content {
+    background-color: darkgray;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 20px;
+    width: 30vw;
+  }
+  
+  .timeline-content h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .timeline-content p, .timeline-content span {
+    margin: 5px 0;
+    color:white;
+  }
+
+  .tech-container{
+      display: inline-block;
+  }

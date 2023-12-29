@@ -9,7 +9,7 @@ export const Header = () =>{
       <header className = 'navbar-items'>
           <Link to ="/" className="items">About</Link>
           <Link to ="/projects" className="items">Projects</Link>
-          <Link to ="/" className="items">Experiance</Link>
+          <Link to ="/experiance" className="items">Experiance</Link>
       </header>
   )
 

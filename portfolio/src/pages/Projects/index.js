@@ -1,6 +1,5 @@
 import './projects.css';
 
-import blog from '../../Images/Blog.png';
 import github from '../../Images/github-circle.svg'
 
 

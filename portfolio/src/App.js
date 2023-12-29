@@ -4,8 +4,9 @@ import { Routes, Route } from "react-router-dom";
 import { Header } from './Components/Header';
 
 
-import { Home }  from './pages/Home'
-import { Projects } from './Components/Projects';
+import { Home }  from './Pages/Home/'
+import { Projects } from './Pages/Projects';
+import { Experiance } from './Pages/Experiance';
 
 
 
@@ -18,7 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
-
+            <Route path="/experiance" element={<Experiance />} />
           </Routes>
 
       </div>
