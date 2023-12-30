@@ -15,7 +15,6 @@
     flex-direction: column;
     align-items: center;
     gap: 25px;
-
 }
 
 .page-container span {
@@ -39,11 +38,6 @@
     flex-wrap: wrap;
 
 }
-
-/* .contact-container div {
-    background-color: palegreen;
-} */
-
 
 .contact-container a {
     text-decoration: none;
