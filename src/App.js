@@ -17,13 +17,12 @@ function App() {
     <>
       <Header />
       <div>
-          <Routes>
-            <Route path="/portfolio/" element={<Home />} />
-            <Route path="/portfolio/projects" element={<Projects />} />
-            <Route path="/portfolio/experiance" element={<Experiance />} />
-            <Route path="/portfolio/about" element={<About />} />
-          </Routes>
-
+        <Routes>
+          <Route path="/portfolio/" element={<Home />} />
+          <Route path="/portfolio/projects" element={<Projects />} />
+          <Route path="/portfolio/experiance" element={<Experiance />} />
+          <Route path="/portfolio/about" element={<About />} />
+        </Routes>
       </div>
     </>
   );
