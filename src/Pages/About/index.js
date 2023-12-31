@@ -19,10 +19,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { IoDocumentTextOutline } from 'react-icons/io5'
  
 
-
-
 export const About = () => {
-
   const iconData = [
     { icon: DiReact },
     { icon: DiHtml5 },
@@ -68,14 +65,7 @@ export const About = () => {
               contactData.map(({icon: IconComponent, text, link}, index) => (
                 <a href={link}  ><IconComponent  size={25} /> {text}</a>
               ))
-            }
-            {/* <div> */}
-            {/* </div> */}
-            {/* <p>
-              
-              <a href="https://github.com/ahmadmujeeb33" target="_blank" rel="noreferrer" style = {{color:'white'}}><DiGithubBadge /> ahmadmujeeb33</a>
-            </p> */}
-            
+            }        
           </div>
         </div>
       </>

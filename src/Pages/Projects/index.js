@@ -41,7 +41,7 @@ export const Projects = () => {
   return (
     <div className='projects-container'>
       <h1>My Projects</h1>
-      <div className = "oval-container">
+      <div className="oval-container">
         {projects.map((project) => {
           return (
             <>
