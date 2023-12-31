@@ -4,7 +4,6 @@ import github from '../../Images/github-circle.svg'
 
 
 export const Projects = () => {
-
   const projects = [
     { title: 'Social Media Blog', 
       description: 'A social media applications that gives users the ability to create blog posts and share with their friends' ,
