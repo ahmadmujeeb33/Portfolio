@@ -54,7 +54,7 @@ export const About = () => {
           <div className="about-container">
               <p>My name is Ahmad Mujeeb and I'm currently a 4th year Computer Science student at Ontario Tech University. I have almost 2 years experiance working in industry using a variety of different tools and frameworks. My expertise are building and developing full stack applications using the latest technolagies.</p>
           </div>
-          <span>Technolagies</span>
+          <span>Technolegies</span>
           <div className = "icons-container">
             {iconData.map(({ name, icon: IconComponent }, index) => (
             <span key={index} style={{color:"white", width:'150px'}}>

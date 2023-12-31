@@ -4,11 +4,8 @@ h1 {
 }
 
 .projects-container{
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
-
-
 
 .oval {
   width: 400px;
@@ -21,8 +18,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1500px;
-  gap: 20px;
+  gap: 20px; 
 }
 
 .oval-contents-grid {

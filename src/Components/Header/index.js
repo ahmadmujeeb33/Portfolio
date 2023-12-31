@@ -8,7 +8,7 @@ export const Header = () =>{
     <header className = 'navbar-items'>
       <Link to ="/portfolio/about" className="items">About</Link>
       <Link to ="/portfolio/projects" className="items">Projects</Link>
-      <Link to ="/portfolio/experiance" className="items">Experiance</Link>
+      <Link to ="/portfolio/experience" className="items">Experience</Link>
     </header>
   )
 }

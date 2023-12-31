@@ -39,10 +39,8 @@ export const Projects = () => {
 
 
   return (
-    <>
-      <div className='projects-container'>
-        <h1>My Projects</h1>
-      </div >
+    <div className='projects-container'>
+      <h1>My Projects</h1>
       <div className = "oval-container">
         {projects.map((project) => {
           return (
@@ -69,6 +67,6 @@ export const Projects = () => {
           );
         })}
       </div>
-    </>
+    </div>
   );
 }

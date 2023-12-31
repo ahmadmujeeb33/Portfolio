@@ -1,9 +1,9 @@
 
-import './experiance.css';
+import './experience.css';
 
 
 
-export const Experiance = () => {
+export const Experience = () => {
 
     const allData = [
         {company: "Blackberry", postion: "Full-Stack Developer", durration: 'Sept 2023 - Dec 2023', technolagies: ['JavaScript, ', 'React, ', 'Node, ', 'MySQL, ', 'Sequelize']},
@@ -14,11 +14,11 @@ export const Experiance = () => {
     return (
       <>
         <h1 style={{color: "white", textAlign: "center"}}>Work History</h1>
-        <div class="timeline" id="timeline">
+        <div class="timeline">
           {
             allData.map((data) => {
               return (
-                <div className="timeline-item" data-company="Company A">
+                <div className="timeline-item">
                   <div className="timeline-content">
                     <h3>{data.company}</h3>
                     <p>Position: {data.postion}</p>

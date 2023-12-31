@@ -1,0 +1,31 @@
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+
+.timeline-content {
+  background-color: darkgray;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.timeline-content h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.timeline-content p,.timeline-content span {
+  margin: 5px 0;
+  color: white;
+}
+
+.tech-container {
+  display: inline-block;
+}
