@@ -2,7 +2,6 @@ import './projects.css';
 
 import github from '../../Images/github-circle.svg'
 
-
 export const Projects = () => {
   const projects = [
     { title: 'Social Media Blog', 
