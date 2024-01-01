@@ -7,9 +7,9 @@ export const Experience = () => {
 
     const allData = [
         {company: "Blackberry", postion: "Full-Stack Developer", durration: 'Sept 2023 - Dec 2023', technolagies: ['JavaScript, ', 'React, ', 'Node, ', 'MySQL, ', 'Sequelize']},
-        {company: "TD", postion: "Quality Engineer", durration: 'May 2023 - Aug 2023', technolagies: ['Java, ', 'Selenium']},
+        {company: "TD Bank", postion: "Quality Engineer", durration: 'May 2023 - Aug 2023', technolagies: ['Java, ', 'Selenium']},
         {company: "RBC", postion: "Full-Stack Developer", durration: 'May 2022 - Aug 2022', technolagies: ['Python, ', 'React, ', 'MySQL, ', 'Elastic, ', 'FastAPI']},
-        {company: "Omers", postion: "Back-End Developer", durration: 'Jan 2022 - Apr 2022', technolagies: ['Java, ', 'Spring Boot']}
+        {company: "OMERS", postion: "Back-End Developer", durration: 'Jan 2022 - Apr 2022', technolagies: ['Java, ', 'Spring Boot']}
     ]
     return (
       <>
