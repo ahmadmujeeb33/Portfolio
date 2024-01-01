@@ -1,8 +1,6 @@
 
 import './experience.css';
 
-
-
 export const Experience = () => {
 
     const allData = [
