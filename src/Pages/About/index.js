@@ -43,25 +43,31 @@ export const About = () => {
   return(
     <>
       <div className="page-container">
-        <span>About Me</span>
         <div className="about-container">
-            <p>My name is Ahmad Mujeeb and I'm currently a 4th year Computer Science student at Ontario Tech University. I have almost 2 years experiance working in industry using a variety of different tools and frameworks. My expertise are building and developing full stack applications using the latest technolegies.</p>
+          <span>About Me</span>
+          <p>My name is Ahmad Mujeeb and I'm currently a 4th year Computer Science student at Ontario Tech University. I have almost 2 years experiance working in industry using a variety of different tools and frameworks. My expertise are building and developing full stack applications using the latest technolegies.</p>
         </div>
-        <span>Technolegies</span>
-        <div className = "icons-container">
-          {iconData.map(({ name, icon: IconComponent }, index) => (
-          <span key={index} style={{color:"white", width:'150px'}}>
-            <IconComponent/>
-          </span>
-          ))}
+        <div>
+          <span>Technologies</span>
+          <div style = {{display:"flex", "justifyContent": "center", "paddingTop": "30px"}}>
+            <div className="icons-container">
+              {iconData.map(({ name, icon: IconComponent }, index) => (
+                <span key={index} style={{ color: "white", width:"150px" }}>
+                  <IconComponent />
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
-        <span>Contact</span>
-        <div className = "contact-container">
-          {
-            contactData.map(({icon: IconComponent, text, link}, index) => (
-              <a href={link}  ><IconComponent  size={25} /> {text}</a>
-            ))
-          }        
+        <div>
+          <span>Contact</span>
+            <div className = "contact-container">
+              {
+                contactData.map(({icon: IconComponent, text, link}, index) => (
+                  <a href={link}  ><IconComponent  size={25} /> {text}</a>
+                ))
+              }        
+            </div>
         </div>
       </div>
     </>
