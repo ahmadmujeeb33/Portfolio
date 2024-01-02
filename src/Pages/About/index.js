@@ -18,7 +18,6 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { IoDocumentTextOutline } from 'react-icons/io5'
  
-
 export const About = () => {
   const iconData = [
     { icon: DiReact },
